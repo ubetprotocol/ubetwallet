@@ -1,0 +1,13 @@
+{
+    "name": "UbetWallet",
+    "version": "1.1.0",
+    "description": "An NPM dist of UbetWallet. For easier downloading & updating via CLI.",
+    "author": "UbetWallet",
+    "license": "ISC",
+    "devDependencies": {
+        "open": "0.0.5"
+    },
+    "bin": {
+        "mew": "bin/startMEW.js"
+    }
+}
