@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Ubetcoin</title>
-  <link rel="canonical" href="https://ubetcoin.io/" />
+  <title>Ubetscoin</title>
+  <link rel="canonical" href="https://Ubetscoin.com/" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="css/etherwallet-master.min.css">
@@ -17,7 +17,7 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="images/fav/manifest.json">
   <link rel="mask-icon" href="images/fav/safari-pinned-tab.svg" color="#0e97c0">
-  <link rel="shortcut icon" href="images/ubetFav.png">
+  <link rel="shortcut icon" href="images/UbetsFav.png">
   <link rel="stylesheet" href="css/custom.css">
   <script src="./js/axios.js"></script>
 </head>
@@ -31,7 +31,7 @@
       <section class="container">
 
         <a href="/" aria-label="Go to homepage" style="padding: 10px;">
-          <img src="./images/UbetWalletvv1.png" alt="Ubetcoin Wallet" width="120" />
+          <img src="./images/UbetsWalletvv1.png" alt="Ubetscoin Wallet" width="120" />
         </a>
 
 
@@ -190,7 +190,7 @@
             </p>
 
             <div ng-show="browserProtocol=='https:'" class="alert alert-danger small" translate="NODE_Warning">
-              Your node must be HTTPS in order to connect to it via ubetcoin.in. You can [download the ubetcoin wallet repo & run it
+              Your node must be HTTPS in order to connect to it via Ubetscoin.in. You can [download the Ubetscoin wallet repo & run it
               locally](https://github.com/kvhnuke/etherwallet/releases/latest) to connect to your local node. Or, get free
               SSL certificate via [LetsEncrypt](https://letsencrypt.org/)</a>.
             </div>
@@ -599,7 +599,7 @@
                 <div class="input-group-btn">
                   <a style="min-width: 170px" class="btn btn-default dropdown-toggle" class="dropdown-toggle" ng-click="dropdownAmount = !dropdownAmount"
                     ng-class="dropdownEnabled ? '' : 'disabled'">
-                    <strong>UBET<!-- {{unitReadable}} -->
+                    <strong>Ubets<!-- {{unitReadable}} -->
                       <!-- <i class="caret"></i> -->
                     </strong>
                   </a>
@@ -767,11 +767,11 @@
 
                         <td ng-show="tx.sendMode=='ether'" class="mono">->
                           <br />
-                          <h4 class="text-danger">{{tx.value}} UBET<!-- {{unitReadable}} --></h4>
+                          <h4 class="text-danger">{{tx.value}} Ubets<!-- {{unitReadable}} --></h4>
                         </td>
                         <td ng-show="tx.sendMode!=='ether'" class="mono">->
                           <br />
-                          <h4 class="text-danger">{{tx.value}} UBET<!-- {{unitReadable}} --></h4>
+                          <h4 class="text-danger">{{tx.value}} Ubets<!-- {{unitReadable}} --></h4>
                         </td>
 
                         <td ng-show="tx.sendMode=='ether'">
@@ -789,8 +789,8 @@
 
                   <p>
                     <span translate="SENDModal_Content_1">You are about to send</span>
-                    <strong ng-show="tx.sendMode=='ether'" class="mono">{{tx.value}} UBET<!-- {{unitReadable}} --></strong>
-                    <strong ng-show="tx.sendMode!=='ether'" class="mono">{{tokenTx.value}} UBET<!-- {{unitReadable}} --></strong>
+                    <strong ng-show="tx.sendMode=='ether'" class="mono">{{tx.value}} Ubets<!-- {{unitReadable}} --></strong>
+                    <strong ng-show="tx.sendMode!=='ether'" class="mono">{{tokenTx.value}} Ubets<!-- {{unitReadable}} --></strong>
                     <br />
                     <span translate="SENDModal_Content_2">to address</span>
                     <strong ng-show="tx.sendMode=='ether'" class="mono"> {{tx.to}}. </strong>
@@ -798,7 +798,7 @@
                   </p>
 
                   <p> You are interacting with the
-                    <strong><!-- {{ajaxReq.type}} -->Ubetcoin chain</strong>, provided by
+                    <strong><!-- {{ajaxReq.type}} -->Ubetscoin chain</strong>, provided by
                     <strong>{{ajaxReq.service}}</strong>.</p>
 
                   <h4 translate="SENDModal_Content_3"> Are you sure you want to do this? </h4>
@@ -1369,7 +1369,7 @@
           <p ng-click="swapIssue = !swapIssue">
             <small>Click here if link doesn't work</small>
           </p>
-          <textarea class="form-control input-sm" rows="9" ng-show="swapIssue" style="max-width: 35rem;margin: auto;">To: support@bity.com, support@ubetcoin.in
+          <textarea class="form-control input-sm" rows="9" ng-show="swapIssue" style="max-width: 35rem;margin: auto;">To: support@bity.com, support@Ubetscoin.in
 Subject: {{orderResult.reference}} - Issue regarding my Swap via MEW
 Message:
 REF ID#: {{orderResult.reference}}
@@ -3510,11 +3510,11 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
 
                           <td ng-show="tx.sendMode=='ether'" class="mono">->
                             <br />
-                            <h4 class="text-danger">{{tx.value}} UBET<!-- {{unitReadable}} --></h4>
+                            <h4 class="text-danger">{{tx.value}} Ubets<!-- {{unitReadable}} --></h4>
                           </td>
                           <td ng-show="tx.sendMode!=='ether'" class="mono">->
                             <br />
-                            <h4 class="text-danger">{{tx.value}} UBET<!-- {{unitReadable}} --></h4>
+                            <h4 class="text-danger">{{tx.value}} Ubets<!-- {{unitReadable}} --></h4>
                           </td>
 
                           <td ng-show="tx.sendMode=='ether'">
@@ -3532,8 +3532,8 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
 
                     <p>
                       <span translate="SENDModal_Content_1">You are about to send</span>
-                      <strong ng-show="tx.sendMode=='ether'" class="mono">{{tx.value}} UBET<!-- {{unitReadable}} --></strong>
-                      <strong ng-show="tx.sendMode!=='ether'" class="mono">{{tokenTx.value}} UBET<!-- {{unitReadable}} --></strong>
+                      <strong ng-show="tx.sendMode=='ether'" class="mono">{{tx.value}} Ubets<!-- {{unitReadable}} --></strong>
+                      <strong ng-show="tx.sendMode!=='ether'" class="mono">{{tokenTx.value}} Ubets<!-- {{unitReadable}} --></strong>
                       <br />
                       <span translate="SENDModal_Content_2">to address</span>
                       <strong ng-show="tx.sendMode=='ether'" class="mono"> {{tx.to}}. </strong>
@@ -3705,7 +3705,7 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
     <article class="block__wrap" style="max-width: 1780px; margin: auto;min-height:30px;">
     </article>
     <center>
-      <small style="color: #FFFFFF;font-size: 14px">&copy; Copyright 2018, ubetcoin.com</small>
+      <small style="color: #FFFFFF;font-size: 14px">&copy; Copyright 2018, Ubetscoin.com</small>
     </center>
     <article class="block__wrap" style="max-width: 1780px; margin: auto;min-height:30px;">
     </article>
@@ -3728,24 +3728,24 @@ Rate: {{swapOrder.swapRate}} {{swapOrder.swapPair}}</textarea>
           </p>
 
           <p class="small">
-            <strong>Always backup your keys: </strong> ubetcoin.in &amp; ubetcoin CX are not "web wallets". You do not
+            <strong>Always backup your keys: </strong> Ubetscoin.in &amp; Ubetscoin CX are not "web wallets". You do not
             create an account or give us your funds to hold onto. No data leaves your computer / your browser. We make it
             easy for you to create, save, and access your information and interact with the blockchain.</p>
 
           <p class="small">
-            <strong>We are not responsible for any loss: </strong> Ethereum, ubetcoin.in & ubetcoin CX, and some of the
+            <strong>We are not responsible for any loss: </strong> Ethereum, Ubetscoin.in & Ubetscoin CX, and some of the
             underlying Javascript libraries we use are under active development. While we have thoroughly tested &amp; tens
             of thousands of wallets have been successfully created by people all over the globe, there is always the possibility
             something unexpected happens that causes your funds to be lost. Please do not invest more than you are willing
             to lose, and please be careful.</p>
 
           <p class="small">
-            <strong> Translations of ubetcoin: </strong> The community has done an amazing job translating ubetcoin into
-            a variety of languages. However, ubetcoin can only verify the validity and accuracy of the information
+            <strong> Translations of Ubetscoin: </strong> The community has done an amazing job translating Ubetscoin into
+            a variety of languages. However, Ubetscoin can only verify the validity and accuracy of the information
             provided in English and, because of this, the English version of our website is the official text. </p>
 
           <p class="small">
-            <strong>MIT License</strong> Copyright &copy; 2015-2019 ubetcoin LLC</p>
+            <strong>MIT License</strong> Copyright &copy; 2015-2019 Ubetscoin LLC</p>
 
           <p class="small">Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation
             files (the "Software"), to deal in the Software without restriction, including without limitation the rights

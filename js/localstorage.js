@@ -6,7 +6,7 @@
 }
 function x()
 {
-	var symbolToStore='[{"options":"cus","name":"Ubetcoin","url":"http://138.68.6.61","port":"8545","httpBasicAuth":null,"eip155":false,"chainId":"10002"}]';
+	var symbolToStore='[{"options":"cus","name":"Ubetcoin","url":"http://167.99.173.111","port":"8545","httpBasicAuth":null,"eip155":false,"chainId":"10002"}]';
 	if (typeof(Storage) !== "undefined")
 	{
 
