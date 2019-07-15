@@ -1,1 +1,1 @@
-### [Ubetcoin Wallet]
+### [UBETSCOIN Wallet]
